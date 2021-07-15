@@ -1,0 +1,5 @@
+C:\Users\xJuan\source\repos\Administracion\Administracion_DAL\obj\Debug\Administracion_DAL.csprojResolveAssemblyReference.cache
+C:\Users\xJuan\source\repos\Administracion\Administracion_DAL\bin\Debug\Administracion_DAL.dll
+C:\Users\xJuan\source\repos\Administracion\Administracion_DAL\bin\Debug\Administracion_DAL.pdb
+C:\Users\xJuan\source\repos\Administracion\Administracion_DAL\obj\Debug\Administracion_DAL.dll
+C:\Users\xJuan\source\repos\Administracion\Administracion_DAL\obj\Debug\Administracion_DAL.pdb
