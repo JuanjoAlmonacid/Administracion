@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace Evaluacion
 {
-    public partial class ActualizarPunto : System.Web.UI.Page
+    public partial class EliminarPunto : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

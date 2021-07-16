@@ -17,9 +17,9 @@
     <AssemblyName>Evaluacion</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
+    <IISExpressSSLPort>44314</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
@@ -66,8 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ActualizarPunto.aspx" />
     <Content Include="AgregarPunto.aspx" />
     <Content Include="Deafult.aspx" />
+    <Content Include="EliminarPunto.aspx" />
     <Content Include="packages.config" />
     <Content Include="Principal.Master" />
     <None Include="Web.Debug.config">
@@ -83,6 +85,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActualizarPunto.aspx.cs">
+      <DependentUpon>ActualizarPunto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActualizarPunto.aspx.designer.cs">
+      <DependentUpon>ActualizarPunto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AgregarPunto.aspx.cs">
       <DependentUpon>AgregarPunto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -96,6 +105,13 @@
     </Compile>
     <Compile Include="Deafult.aspx.designer.cs">
       <DependentUpon>Deafult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarPunto.aspx.cs">
+      <DependentUpon>EliminarPunto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EliminarPunto.aspx.designer.cs">
+      <DependentUpon>EliminarPunto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
@@ -112,6 +128,12 @@
     <Compile Include="VerPuntos.aspx.designer.cs">
       <DependentUpon>VerPuntos.aspx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Administracion_DAL\Administracion_DAL.csproj">
+      <Project>{c4779cd6-0d9b-466a-b1c2-b412b7ec864e}</Project>
+      <Name>Administracion_DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -38,3 +38,5 @@ C:\Users\xJuan\Desktop\Administracion\Evaluacion\bin\Microsoft.CodeDom.Providers
 C:\Users\xJuan\Desktop\Administracion\Evaluacion\obj\Debug\Evaluacion.csprojResolveAssemblyReference.cache
 C:\Users\xJuan\Desktop\Administracion\Evaluacion\obj\Debug\Evaluacion.dll
 C:\Users\xJuan\Desktop\Administracion\Evaluacion\obj\Debug\Evaluacion.pdb
+C:\Users\xJuan\Desktop\Administracion\Evaluacion\bin\Administracion_DAL.dll
+C:\Users\xJuan\Desktop\Administracion\Evaluacion\bin\Administracion_DAL.pdb

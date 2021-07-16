@@ -35,8 +35,8 @@ namespace Evaluacion
 
 
                 Punto p = new Punto();
-                p.Nombrep = nombrep;
-                p.Abierto = abierto;
+                p.NombreP = nombre;
+               
 
 
 
@@ -55,7 +55,7 @@ namespace Evaluacion
         private void limpiar()
         {
             nombreTxt.Text = "";
-            abiertoTxt.Text = "";
+           
 
         }
         // filtro 1
